@@ -1,0 +1,3 @@
+﻿IP地址,端口,回源端口,TLS,数据中心,地区,国家,城市,TCP延迟(ms),速度(MB/s)
+45.87.102.122,444,443,true,HKG,Asia Pacific,HK,Hong Kong,222,2.08
+141.11.139.211,8443,443,true,NRT,Asia Pacific,JP,Tokyo,73,0.01
