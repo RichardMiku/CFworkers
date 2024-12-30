@@ -1,0 +1,5 @@
+﻿IP地址,端口,回源端口,TLS,数据中心,地区,国家,城市,TCP延迟(ms),速度(MB/s)
+34.117.105.161,80,80,false,LAX,North America,US,Los Angeles,318,0.24
+34.54.159.251,80,80,false,LAX,North America,US,Los Angeles,293,0.24
+35.201.107.185,80,80,false,LAX,North America,US,Los Angeles,319,0.12
+34.56.143.151,80,8080,false,ORD,North America,US,Chicago,390,0.02

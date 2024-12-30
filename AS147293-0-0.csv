@@ -1,0 +1,2 @@
+﻿IP地址,端口,回源端口,TLS,数据中心,地区,国家,城市,TCP延迟(ms),速度(MB/s)
+103.20.199.88,30002,80,false,NRT,Asia Pacific,JP,Tokyo,178,0.15
