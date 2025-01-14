@@ -1,16 +1,1 @@
-﻿IP地址,端口,回源端口,TLS,数据中心,地区,国家,城市,TCP延迟(ms),速度(MB/s)
-38.59.242.169,27738,443,true,SJC,North America,US,San Jose,152,2.43
-37.123.193.101,17475,443,true,SJC,North America,US,San Jose,161,2.41
-37.123.192.228,20211,443,true,SJC,North America,US,San Jose,157,2.03
-38.59.224.55,50406,443,true,LHR,Europe,GB,London,162,1.90
-82.115.30.115,56722,443,true,FRA,Europe,DE,Frankfurt,162,1.74
-38.59.241.80,45535,443,true,SJC,North America,US,San Jose,153,1.37
-37.123.193.197,29121,443,true,SJC,North America,US,San Jose,166,1.32
-38.59.244.4,12111,443,true,SJC,North America,US,San Jose,159,1.29
-38.59.246.41,9443,443,true,SJC,North America,US,San Jose,227,1.23
-185.218.7.217,1443,443,true,SJC,North America,US,San Jose,182,0.95
-38.59.241.252,27856,443,true,SJC,North America,US,San Jose,161,0.77
-38.59.241.39,10000,443,true,SJC,North America,US,San Jose,158,0.72
-185.217.108.43,2087,2083,true,FRA,Europe,DE,Frankfurt,146,0.60
-185.218.6.47,443,443,true,SJC,North America,US,San Jose,155,0.41
-185.218.6.47,80,80,false,SJC,North America,US,San Jose,154,0.15
+﻿
