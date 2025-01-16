@@ -19,12 +19,22 @@ df = pd.read_csv(file_path)
 df['数据中心'] = df.apply(lambda row: f"{row['数据中心']}-{row['下载速度']}", axis=1)
 
 # 查找第一个空的CSV文件
+non_empty_files = []
 for csv_file in csv_files:
     csv_file_path = os.path.join(current_directory, csv_file)
     if os.path.getsize(csv_file_path) == 0:
         # 将更新后的数据写入空的CSV文件
         df.to_csv(csv_file_path, index=False)
         break
+    else:
+        non_empty_files.append(csv_file)
+
+if non_empty_files:
+    print("Non-empty CSV files:")
+    for file in non_empty_files:
+        print(file)
+else:
+    print("No non-empty CSV files found.")
 
 # 打印更新后的数据
 # print(df)
