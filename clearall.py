@@ -5,8 +5,8 @@ current_directory = os.getcwd()
 
 # 遍历当前目录下的所有文件
 for filename in os.listdir(current_directory):
-    # 检查文件是否为CSV文件
-    if filename.endswith(".csv"):
+    # 检查文件是否为CSV文件且不是ip.csv
+    if filename.endswith(".csv") and filename != "ip.csv":
         # 打印当前处理的文件名
         print(f"Processing file: {filename}")
         # 构建文件路径
