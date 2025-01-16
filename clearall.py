@@ -7,6 +7,8 @@ current_directory = os.getcwd()
 for filename in os.listdir(current_directory):
     # 检查文件是否为CSV文件
     if filename.endswith(".csv"):
+        # 打印当前处理的文件名
+        print(f"Processing file: {filename}")
         # 构建文件路径
         file_path = os.path.join(current_directory, filename)
         # 打开文件并清空其内容
