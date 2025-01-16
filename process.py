@@ -25,6 +25,7 @@ for csv_file in csv_files:
     if os.path.getsize(csv_file_path) == 0:
         # 将更新后的数据写入空的CSV文件
         df.to_csv(csv_file_path, index=False)
+        print(f"Data written to: {csv_file}")
         break
     else:
         non_empty_files.append(csv_file)
